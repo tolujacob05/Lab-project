@@ -1,0 +1,38 @@
+.autum {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shop {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5rem;
+}
+.F3 img{
+    padding: 20px;
+    height: 60vh;
+    width: 60vw;
+}
+.buttons {
+    display: flex;
+    gap: 2rem;
+}
+.buttons p {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(119, 180, 119);
+    height: 50px;
+    width: 120px;
+    padding: 5px;
+    padding-left: 1rem;
+    border-radius: 10px;
+    font-size: medium;
+    font-family: sans-serif;
+}
+@media  screen and (max-width: 1000px) {
+    .F3 img {
+        width: 40vw;
+    }
+    
+}

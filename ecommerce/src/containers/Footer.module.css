@@ -1,0 +1,31 @@
+.bigFooter {
+    display: flex;
+    gap: 6rem;
+    justify-content: center;
+    align-items: center;
+    font-style: sans-serif;
+    background: #7AE582;
+}
+.bigFooter a {
+    font-family: sans-serif;
+    font-size: 0.9rem;
+}
+.some {
+    display: grid;
+    gap: 2rem;
+}
+.other {
+    display: grid;
+    gap: 2rem;
+}
+.letter {
+    display: grid;
+    gap: 2rem;
+}
+input {
+    border: 0;
+}
+.editText {
+    width: 14vw;
+    text-decoration: underline;
+} 
